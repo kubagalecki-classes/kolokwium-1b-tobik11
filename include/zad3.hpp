@@ -12,7 +12,7 @@ public:
 	}
 
 	unsigned koncert() {
-		returned i.liczbaUczestnikow(a.gamers);
+		return i.liczbaUczestnikow(a.gamers);
 	}
 private:
 	Artysta a;
