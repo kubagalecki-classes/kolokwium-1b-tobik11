@@ -26,7 +26,8 @@ public:
 		return gamers;
 	}
 
-private:
+
 	unsigned gamers = 0;
 	std::string pseudonim;
+  private:
 };
