@@ -8,7 +8,7 @@ std::vector<Artysta> stworzZespol(int a, const std::string& st) {
 	std::vector<Artysta> tren;
 	if (st.size() != a) {
 		//std::cout << "aaaaa" << std::endl;
-		std::logic_error("error");
+		throw std::logic_error("nothing");
 		return tren;
 	}
 	else {
