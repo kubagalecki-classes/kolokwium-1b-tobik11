@@ -32,7 +32,7 @@ public:
 private:
 };
 
-Artysta* stworzArtyste(std::string& st) {
+Artysta* stworzArtyste(const std::string& st) {
 	if (isupper(st[0]))
 		return new PopGwiazda("BTS", 1234);
 	else
