@@ -15,7 +15,7 @@ public:
 	Artysta(const std::string& _pseu, unsigned _gam) : pseudonim(_pseu), gamers(_gam) {}
 
 	void graj(std::ostream& kk) const {
-		kk << "[" << pseudonim << "]:[" << gamers << "]" << std::endl;
+		kk << pseudonim << ": " << gamers;
 	}
 
 	const std::string& getPseudonim() const {
