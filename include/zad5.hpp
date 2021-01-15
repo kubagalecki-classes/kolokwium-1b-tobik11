@@ -7,6 +7,6 @@
 // tutaj algorytm liczPopularnych(T begin, T end)
 
 template<typename T>
-void liczPopularnych(T a, T b) {
-	int num = count_if(a, b, [](unsigned i) {return i.gamers>1000})
+unsigned liczPopularnych(T a, T b) {
+	return  count_if(a, b, [](Artysta temp) {return  temp.gamers > 1000; });
 }
